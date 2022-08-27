@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, width=device-width, viewport-fit=cover"
+    />
+    <link rel="shortcut icon" href="../png/icon.png" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/game.css" />
+    <title>Checkers Master</title>
+  </head>
+  <body>
+    <div class="wrapper hidden">
+      <div class="game_over">
+        <div class="outcome">Game over!</div>
+
+        <div class="reward_cont">
+          <img src="../png/coin.png" alt="coin" />
+          <div class="reward">+500</div>
+        </div>
+
+        <a href="./main.html" class="button block">Nice</a>
+      </div>
+
+      <div class="header block">
+        <span>Game</span>
+        <a href="./main.html" class="home"></a>
+      </div>
+
+      <div class="field"></div>
+
+      <div class="turn">White's move</div>
+
+      <div class="balance_cont">
+        <span>Balance:</span>
+        <span class="balance"></span>
+      </div>
+    </div>
+
+    <script src="../scripts/game.js" type="module"></script>
+  </body>
+</html>

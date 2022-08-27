@@ -1,0 +1,41 @@
+html {
+  font-size: 20px;
+}
+
+.header {
+  position: relative;
+  height: 100px;
+
+  color: #ff7e3e;
+  font-weight: 800;
+  font-size: 24px;
+
+  background: linear-gradient(359.04deg, #210c01 29.84%, #4b2512 137.32%);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  color: #ff7e3e;
+  font-size: 24px;
+  text-transform: uppercase;
+
+  margin: 40px auto;
+}
+
+.note {
+  height: 52px;
+  background: #230d02;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 20px auto;
+}
+
+.you {
+  background: #4f1a00;
+}
