@@ -1,9 +1,10 @@
-if (!localStorage.getItem('balance_ch')) {
-    localStorage.setItem('balance_ch', 500)
+if (!localStorage.getItem("balance_ch")) {
+  localStorage.setItem("balance_ch", 500);
 }
 
-document.querySelector('.balance').innerHTML = localStorage.getItem('balance_ch')
+document.querySelector(".balance").innerHTML =
+  localStorage.getItem("balance_ch");
 
 window.onload = () => {
-    document.querySelector('.wrapper').classList.remove('hidden')
-}
+  document.querySelector(".wrapper").classList.remove("hidden");
+};
